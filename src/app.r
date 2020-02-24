@@ -152,6 +152,5 @@ server <- function(input, output) {
 }
 
 
+options(shiny.port=8888)
 shinyApp(ui, server)
-        
-        
